@@ -7,7 +7,7 @@ We love pull requests from everyone. By participating in this project, you're en
 Fork the [project on Github](https://github.com/LandingJobs/404-hack) and check out your copy.
 
 ```
-git clone https://github.com/contributor/404-hack.git
+git clone https://github.com/[your-name]/404-hack.git
 cd 404-hack
 git remote add upstream https://github.com/LandingJobs/404-hack.git
 ```
@@ -21,17 +21,10 @@ git checkout master
 git pull upstream master
 git checkout -b my-feature-branch
 ```
-#### Write Tests
-
-Try to write a test that reproduces the problem you're trying to fix or describes a feature that you want to build.
-
-We definitely appreciate pull requests that highlight or reproduce a problem, even without a fix.
 
 #### Write Code
 
 Implement your feature or bug fix.
-
-Ruby style is enforced with [Rubocop](https://github.com/bbatsov/rubocop), run `bundle exec rubocop` and fix any style issues highlighted.
 
 #### Write Documentation
 
@@ -39,7 +32,11 @@ Document any external behavior in the [README](README.md).
 
 #### Update Changelog
 
-Add a line to [CHANGELOG](CHANGELOG.md) under *Next Release*. Make it look like every other line, including your name and link to your Github account.
+Add a line to [CHANGELOG](CHANGELOG.md) under *Next Release*. Make it look like example below, including your name and link to your Github account.
+
+```
+* [#123](https://github.com/LandingJobs/404-hack/pull/1): New Feature x - [@contributor](https://github.com/[your-name]).
+```
 
 #### Commit Changes
 
@@ -65,7 +62,7 @@ git push origin my-feature-branch
 
 #### Make a Pull Request
 
-Go to https://github.com/contributor/404-hack and select your feature branch. Click the 'Pull Request' button and fill out the form. Pull requests are usually reviewed within a few days.
+Go to https://github.com/[your-name]/404-hack and select your feature branch. Click the 'Pull Request' button and fill out the form. Pull requests are usually reviewed within a few days.
 
 #### Rebase
 
@@ -82,7 +79,7 @@ git push origin my-feature-branch -f
 Update the [CHANGELOG](CHANGELOG.md) with the pull request number. A typical entry looks as follows.
 
 ```
-* [#123](https://github.com/LandingJobs/404-hack/pull/1): New Feature x - [@contributor](https://github.com/contributor).
+* [#123](https://github.com/LandingJobs/404-hack/pull/1): New Feature x - [@contributor](https://github.com/[your-name]).
 ```
 
 Amend your previous commit and force push the changes.
@@ -92,10 +89,6 @@ git commit --amend
 git push origin my-feature-branch -f
 ```
 
-#### Check on Your Pull Request
-
-Go back to your pull request after a few minutes and see whether it passed muster with Travis-CI. Everything should look green, otherwise fix issues and amend your commit as described above.
-
 #### Be Patient
 
 It's likely that your change will not be merged and that the nitpicky maintainers will ask you to do more, or fix seemingly benign problems. Hang on there!
@@ -103,3 +96,5 @@ It's likely that your change will not be merged and that the nitpicky maintainer
 #### Thank You
 
 Please do know that we really appreciate and value your time and work. We love you, really.
+
+* Change [your-name] with your Github username.
